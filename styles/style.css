@@ -9,18 +9,22 @@ body {
 
 main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container {
     background-color: #FFFFFF;
     width: 870px;
-    padding: 33px;
+    padding: 40px;
+    border-radius: 5px;
+    margin: 30px;
 
 
 }
 
 hr {
+    margin-top: 30px;
     border: 1px solid #d1d1d1;
 }
 
@@ -66,6 +70,7 @@ hr {
 .blogs {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
 }
 
 .blog {
@@ -73,11 +78,13 @@ hr {
 }
 
 .blog-info {
-    margin-left: 16px;
+    padding: 0px;
+    padding-left: 10px;
 }
 
 .blog-tittle {
     font-size: 20px;
+
 }
 
 .blog-author {
@@ -93,4 +100,14 @@ hr {
 .blog .thumbnail img {
     width: 117px;
     height: 117px;
+}
+
+/* courses style  */
+.course .course-banner img {
+    width: 224px;
+    height: 104px;
+}
+
+.fa-star.filled {
+    color: aqua;
 }

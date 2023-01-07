@@ -154,3 +154,30 @@ hr {
     border-radius: 30%;
     padding: 5px;
 }
+
+
+
+/* .............................................media display 
+..........................................................................................................*/
+/* mobile  */
+@media only screen and (max-width:688px) {
+    .players {
+        background-color: #562EFF;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .player {
+        flex-direction: column;
+    }
+
+    .player img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .container {
+        width: 100%;
+        align-items: center;
+    }
+}

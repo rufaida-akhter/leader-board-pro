@@ -108,6 +108,10 @@ hr {
     height: 104px;
 }
 
+.fa-star {
+    font: 12px;
+}
+
 .fa-star.filled {
-    color: aqua;
+    color: #FFC014;
 }

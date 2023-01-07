@@ -18,6 +18,10 @@ main {
 }
 
 /* top player style  */
+.top-players {
+    background-color: #FFFFFF;
+}
+
 .players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

@@ -15,11 +15,26 @@ main {
 .container {
     width: 870px;
     height: 870px;
+
+}
+
+.section-title {
+    color: #562EFF;
+    font-size: 24px;
+
+}
+
+.name {
+    font-size: 14px;
+    color: black;
+    margin-left: 5px;
 }
 
 /* top player style  */
 .top-players {
     background-color: #FFFFFF;
+    padding: 50px;
+    align-items: center;
 }
 
 .players {
